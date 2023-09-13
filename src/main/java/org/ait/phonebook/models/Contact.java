@@ -61,4 +61,12 @@ public class Contact {
         this.desc = desc;
         return this;
     }
+
+    @Override
+    public String toString() {
+        return "Contact{" +
+                "name='" + name + '\'' +
+                ", phone='" + phone + '\'' +
+                '}';
+    }
 }
