@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ait.phonebook.AddContactTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-09-14T07:40:30" hostname="NATA-BOD" time="53.577">
+  <properties/>
+  <testcase name="addContactPositiveTestFromDataProviderWithCSV[0](Contact{name='Le', phone='12345678984'})" classname="org.ait.phonebook.AddContactTests" time="1.75"/>
+  <testcase name="addContactPositiveTestFromDataProviderWithCSV[1](Contact{name='Manuel', phone='12345678984'})" classname="org.ait.phonebook.AddContactTests" time="1.877"/>
+  <testcase name="addContactPositiveTestFromDataProviderWithCSV[2](Contact{name='Mahghjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj', phone='12345678984'})" classname="org.ait.phonebook.AddContactTests" time="2.091"/>
+  <testcase name="addContactPositiveTestFromDataProviderWithCSV[3](Contact{name='Manuel-Le', phone='12345678984'})" classname="org.ait.phonebook.AddContactTests" time="1.994"/>
+  <testcase name="addContactPositiveTestFromDataProviderWithCSV[4](Contact{name='Manuel Le', phone='12345678984'})" classname="org.ait.phonebook.AddContactTests" time="2.087"/>
+  <system-out><![CDATA[09:40:29.510 [Test worker] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderWithCSV with data: [Contact{name='Le', phone='12345678984'}]
+09:40:32.569 [Test worker] INFO  org.ait.phonebook.TestBase -- PASSED: addContactPositiveTestFromDataProviderWithCSV
+09:40:32.570 [Test worker] INFO  org.ait.phonebook.TestBase -- Stop test
+09:40:32.570 [Test worker] ERROR org.ait.phonebook.TestBase -- *********************************************
+09:40:32.571 [Test worker] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderWithCSV with data: [Contact{name='Manuel', phone='12345678984'}]
+09:40:45.308 [Test worker] INFO  org.ait.phonebook.TestBase -- PASSED: addContactPositiveTestFromDataProviderWithCSV
+09:40:45.308 [Test worker] INFO  org.ait.phonebook.TestBase -- Stop test
+09:40:45.308 [Test worker] ERROR org.ait.phonebook.TestBase -- *********************************************
+09:40:45.310 [Test worker] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderWithCSV with data: [Contact{name='Mahghjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj', phone='12345678984'}]
+09:40:58.307 [Test worker] INFO  org.ait.phonebook.TestBase -- PASSED: addContactPositiveTestFromDataProviderWithCSV
+09:40:58.308 [Test worker] INFO  org.ait.phonebook.TestBase -- Stop test
+09:40:58.308 [Test worker] ERROR org.ait.phonebook.TestBase -- *********************************************
+09:40:58.309 [Test worker] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderWithCSV with data: [Contact{name='Manuel-Le', phone='12345678984'}]
+09:41:11.249 [Test worker] INFO  org.ait.phonebook.TestBase -- PASSED: addContactPositiveTestFromDataProviderWithCSV
+09:41:11.249 [Test worker] INFO  org.ait.phonebook.TestBase -- Stop test
+09:41:11.250 [Test worker] ERROR org.ait.phonebook.TestBase -- *********************************************
+09:41:11.250 [Test worker] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderWithCSV with data: [Contact{name='Manuel Le', phone='12345678984'}]
+09:41:24.470 [Test worker] INFO  org.ait.phonebook.TestBase -- PASSED: addContactPositiveTestFromDataProviderWithCSV
+09:41:24.470 [Test worker] INFO  org.ait.phonebook.TestBase -- Stop test
+09:41:24.470 [Test worker] ERROR org.ait.phonebook.TestBase -- *********************************************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
